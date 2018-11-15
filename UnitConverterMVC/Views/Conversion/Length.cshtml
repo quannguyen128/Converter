@@ -1,0 +1,18 @@
+@model ConverterViewModel 
+
+ <form asp-controller="Conversion" asp-action="ConvertLength" method="POST">
+        <!--Borrowed from W3 school (froms) -->
+
+  Value to Convert:<br>
+  <input type="text" asp-for="@Model.ValuetoConvert" >
+  <br>
+  Conversion Type:<br>
+  <select asp-for="@Model.ConversionType">
+      <option value = "MtoF">Meters to Feet</option>
+      <option value = "MtoY">Meters to Yards</option>
+      <option value = "FtoM">Feet to Meters</option>
+      <option value = "FtoY">Feet to Yards</option>     
+  </select>
+  <br><br>
+  <input type="submit" value="Submit">
+</form> 

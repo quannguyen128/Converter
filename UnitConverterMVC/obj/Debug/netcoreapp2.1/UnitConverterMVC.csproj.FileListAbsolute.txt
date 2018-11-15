@@ -32,4 +32,9 @@ C:\APB PRO 2\UnitConverter\UnitConverterMVC\obj\Debug\netcoreapp2.1\UnitConverte
 C:\APB PRO 2\UnitConverter\UnitConverterMVC\obj\Debug\netcoreapp2.1\UnitConverterMVC.csproj.CopyComplete
 C:\APB PRO 2\UnitConverter\UnitConverterMVC\obj\Debug\netcoreapp2.1\UnitConverterMVC.dll
 C:\APB PRO 2\UnitConverter\UnitConverterMVC\obj\Debug\netcoreapp2.1\UnitConverterMVC.pdb
-C:\APB PRO 2\UnitConverter\UnitConverterMVC\obj\Debug\netcoreapp2.1\Razor\Views\Converter\CelciustoFahrenheit.g.cshtml.cs
+C:\APB PRO 2\UnitConverter\UnitConverterMVC\obj\Debug\netcoreapp2.1\Razor\Views\Conversion\ConvertTemp.g.cshtml.cs
+C:\APB PRO 2\UnitConverter\UnitConverterMVC\obj\Debug\netcoreapp2.1\Razor\Views\Conversion\Temp.g.cshtml.cs
+C:\APB PRO 2\UnitConverter\UnitConverterMVC\obj\Debug\netcoreapp2.1\Razor\Views\Conversion\Length.g.cshtml.cs
+C:\APB PRO 2\UnitConverter\UnitConverterMVC\obj\Debug\netcoreapp2.1\Razor\Views\Conversion\ConvertLength.g.cshtml.cs
+C:\APB PRO 2\UnitConverter\UnitConverterMVC\obj\Debug\netcoreapp2.1\Razor\Views\Conversion\ConvertMass.g.cshtml.cs
+C:\APB PRO 2\UnitConverter\UnitConverterMVC\obj\Debug\netcoreapp2.1\Razor\Views\Conversion\Mass.g.cshtml.cs

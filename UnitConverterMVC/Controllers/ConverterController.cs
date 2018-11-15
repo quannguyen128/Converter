@@ -19,6 +19,7 @@ namespace UnitConverterMVC.Controllers
             MyTempetureConverter convert = new MyTempetureConverter();
             decimal result = convert.CelciustoFahrenheit(val);
             return result;
+            
         }
 
         public decimal Ctok(string type, string unitvalue)
@@ -29,7 +30,7 @@ namespace UnitConverterMVC.Controllers
              return result;
         }
 
-        
+       
         public decimal FtoC(string type, string unitvalue)
         {
              decimal v = Convert.ToDecimal(unitvalue);
@@ -94,14 +95,14 @@ namespace UnitConverterMVC.Controllers
             decimal result = o.OuncetoGram(v);
             return result;
         }
-         public decimal KgtoO(string type, string unitvalue)
+        public decimal KgtoO(string type, string unitvalue)
         {
             decimal v = Convert.ToDecimal(unitvalue);
             KilogtoOunceConverter o = new KilogtoOunceConverter();
             decimal result = o.KilogtoOunce(v);
             return result;
         }
-         public decimal PtoG(string type, string unitvalue)
+        public decimal PtoG(string type, string unitvalue)
         {
             decimal v = Convert.ToDecimal(unitvalue);
             PoundtoGramConverter o = new PoundtoGramConverter();

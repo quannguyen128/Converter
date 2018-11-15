@@ -14,6 +14,16 @@ namespace UnitConverterMVC.Controllers
         {
             return View();
         }
+        public string Hello(string name)
+        {
+            
+            return $"Hello there, {name}";
+        }
+
+        public string AnotherHello(int age)
+        {
+            return $"Hello there, you are {age}";
+        }
 
         public IActionResult About()
         {

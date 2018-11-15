@@ -1,0 +1,18 @@
+@model ConverterViewModel 
+
+ <form asp-controller="Conversion" asp-action="ConvertMass" method="POST">
+        <!--Borrowed from W3 school (froms) -->
+
+  Value to Convert:<br>
+  <input type="text" asp-for="@Model.ValuetoConvert" >
+  <br>
+  Conversion Type:<br>
+  <select asp-for="@Model.ConversionType">
+      <option value = "OtoP">Ounce to Pound</option>
+      <option value = "OtoG">Ounce to Gram</option>
+      <option value = "KtoO">Kilograms to Ounce</option>
+      <option value = "PtoG">Pound to Gram</option>     
+  </select>
+  <br><br>
+  <input type="submit" value="Submit">
+</form> 
